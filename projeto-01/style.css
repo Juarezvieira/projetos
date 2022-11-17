@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    height: 100vh;
+    width: 100vw;
+}
+
+img {
+    width: 350px;
+    height:500px;
+}
+
+section#imagem {
+    height: 500px;
+}
+
+main#anuncio {
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    border: none;
+}
+
+
+
+section#principal {
+    background-color: white;
+    width: 300px;
+    height: 500px;
+}
+
+#perfume {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+
+
+section#principal h1 {
+    padding-top: 10px;
+    padding-left: 30px;
+    margin-right: 70px;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+#explicacao {
+    font-size: 14px;
+    line-height: 25px;
+    color: hsl(228, 12%, 48%);
+    padding-top: 20px;
+    padding-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    padding-top: 30px;
+    padding-left: 70px;
+    list-style-type: none;
+}
+
+#preco1 {
+    font-weight: 900;
+    font-size: 40px;
+    color: hsl(158, 36%, 37%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+#preco2 {
+    padding-top: 15px;
+    padding-left: 50px;
+    color: hsl(228, 12%, 48%);
+}
+
+#botao {
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#botao:hover {
+    cursor: pointer;
+    background-color: hsl(158, 35%, 24%);;
+}
+
+
+
+footer#creditos {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+footer#creditos p {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer#creditos a {
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+
+footer#creditos a:hover {
+    text-decoration: underline;
+}
