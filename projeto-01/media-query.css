@@ -18,7 +18,7 @@
     }
 
     section#imagem {
-        background-image: url('/imagens/image-product-mobile.jpg');
+        background-image: url('./imagens/image-product-mobile.jpg');
         background-repeat: no-repeat;
         background-size: contain;
         background-attachment: scroll;
