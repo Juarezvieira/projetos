@@ -8,6 +8,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     background-color: hsl(185, 75%, 39%);
     height: 100vh;
@@ -17,74 +18,104 @@ body {
 
 main#card {
     position: absolute;
-    top:50%;
-    left:50%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    box-shadow: hsl(229, 23%, 23%) 0px 0px 4px;
     width: 420px;
-    height: 500px;
+    height: 450px;
     font-family: 'Kumbh Sans', sans-serif;
     border-radius: 20px;
-    display:block;
-}
-
-
-section#imagem-escama {
-    background-image: url('./imagens/bg-pattern-card.svg');
-    height: 150px;
     display: block;
-    background-attachment: fixed;
-    border-radius: 20px 20px 0px 0px;
-}
-
-section#imagem-perfil img {
-    border-radius: 50%;
-    border: 15px solid black;
-}
-
-section#imagem-perfil {
-    text-align: center;
-}
-
-div#bloco-01 h2 {
-
-}
-
-
-div#bloco-01 p {
-    text-align: center;
-    color: hsl(227, 10%, 46%);
 }
 
 main#card h2 {
-    font-size: 23px;
+    font-size: 20px;
     font-weight: 900;
-    text-align: center;
-    color: hsl(229, 23%, 23%);
+}
+
+div#imagem-card img {
+    width: 420px;
+    border-radius: 20px 20px 0px 0px;
+    display: block;
+    position: absolute;
+}
+
+div#imagem-card {
+    display: block;
+}
+
+
+div#imagem-perfil img {
+    display: block;
+    border-radius: 50%;
+    border: 8px solid white;
+    width: 130px;
+    position: relative;
+}
+
+
+div#imagem-perfil {
+    padding-left: 150px;
+    padding-top: 100px;
+    margin-bottom: 5px;
 }
 
 
 
-ul {
-    list-style: none;
-}
-
-ul#numeros {
+div#descricao h2 {
+    font-size: 23px;
     display: flex;
-    padding-left: 120px;
 }
 
-ul#numeros li{
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-ul#categorias {
-    display: flex;
+div#descricao h3 {
     color: hsl(227, 10%, 46%);
+    font-weight: 200;
+    font-size: 20px;
+    display: flex;
 }
 
+div#descricao p {
+    padding-top: 10px;
+    color: hsl(227, 10%, 46%);
+    text-align: center;
+}
+
+div ul {
+    list-style-type: none;
+    display: flex;
+    padding-left: 140px;
+}
+
+li {
+    display: flex;
+}
+
+li#numero {
+    padding-top: 3px;
+    padding-left: 15px;
+}
+
+div#status {
+    margin-top: 40px;
+    border-top: 1px solid rgb(112, 112, 112);
+}
+
+div#status h2 {
+    word-spacing: 80px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 23px;
+}
+
+div#status p {
+    word-spacing: 80px;
+    color: hsl(227, 10%, 46%);
+    padding-left: 0px;
+    padding-right: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
 
 footer#creditos {
     width: 100%;
@@ -94,12 +125,16 @@ footer#creditos {
     left: 0;
 }
 
-footer#creditos p{
+
+footer#creditos p {
     text-align: center;
     font-family: 'Kumbh Sans', sans-serif;
+    font-size: 17px;
 }
+
 
 footer#creditos a {
     color: black;
     font-weight: 900;
+    font-size: 17px;
 }

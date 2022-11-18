@@ -6,33 +6,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./imagens/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="media-query.css">
   <title>Frontend Mentor | Profile card component</title>
 </head>
 
 <body>
   <main id="card">
-    <section id="imagem-escama">
-    </section>
-      <section id="imagem-perfil">
-        <img src="./imagens/image-victor.jpg" alt="imagem-perfil">
-      </section>
-      <div id="bloco-01">
-        <h2>Victor Crest</h2> <p>26</p>
-        <p>London</p>
-      </div>
-      <div id="status">
-        <ul id="numeros">
-          <li><h2>80K</h2></li>
-          <li><h2>803K</h2></li>
-          <li><h2>1.4K</h2></li>
-        </ul>
-        <ul id="categorias">
-          <li>Followers</li>
-          <li>Likes</li>
-          <li>Photos</li>
-        </ul>
-      </div>
+    <div id="imagem-card">
+      <img src="./imagens/bg-pattern-card.svg" alt="imagem-card">
+    </div>
+    <div id="imagem-perfil">
+      <img src="./imagens/image-victor.jpg" alt="imagem-perfil">
+    </div>
+    <div id="descricao">
+      <ul>
+        <li>
+          <h2>Victor Crest</h2>
+        </li>
+        <li id="numero">
+          <h3>26</h3>
+        </li>
+      </ul>
+      <p>London</p>
+    </div>
+    <div id="status">
+      <h2>80K 803K 1.4K</h2>
+      <p>Followers Likes Photos</p>
+    </div>
   </main>
   <footer id="creditos">
     <p>
@@ -42,7 +41,7 @@
         Código escrito por <a href="#">Juarez</a>.
       </i>
     </p>
-    </footer>
+  </footer>
 </body>
 
 </html>
