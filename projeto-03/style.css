@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(244, 38%, 16%);
+}
+
+main section#texto-principal {
+
+}
+
+
+
+footer#creditos {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+footer#creditos p {
+    color: white;
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 17px;
+}
+
+
+footer#creditos a {
+    color: white;
+    font-weight: 900;
+    font-size: 17px;
+}
