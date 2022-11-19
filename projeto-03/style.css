@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -15,14 +17,77 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow: hidden;
     background-color: hsl(244, 38%, 16%);
+    width: 1400px;
+    height: 600px;
+    border-radius: 8px;
 }
 
-main section#texto-principal {
+main section#imagem {
+    width: 700px;
+    height: 600px;
+    background-image: url('./imagens/image-header-desktop.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    float: right;
+}
 
+img {
+    display: none;
 }
 
 
+main section#principal {
+    padding-top: 100px;
+    padding-left: 80px;
+    padding-right: 100px;
+    position: absolute;
+    height: 600px;
+    width: 700px;
+}
+
+div#primeiro-texto h1 {
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    padding-bottom: 70px;
+    padding-right: 20px;
+}
+
+
+strong {
+    color:#aa5cdb;
+}
+
+div#primeiro-texto p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    padding-right: 128px;
+    padding-bottom: 120px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li h1 {
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    font-size: 30px;
+    word-spacing: 80px;
+    padding-bottom: 15px;
+}
+
+li p {
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    word-spacing: 60px;
+}
 
 footer#creditos {
     width: 100%;
@@ -36,7 +101,7 @@ footer#creditos {
 footer#creditos p {
     color: white;
     text-align: center;
-    font-family: 'Kumbh Sans', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
 }
 
