@@ -13,7 +13,6 @@ body {
 }
 
 main {
-    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -22,21 +21,19 @@ main {
     width: 1400px;
     height: 600px;
     border-radius: 8px;
+    position: absolute;
 }
 
 main section#imagem {
     width: 700px;
     height: 600px;
-    background-image: url('./imagens/image-header-desktop.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     display: flex;
     float: right;
 }
 
 img {
-    display: none;
+    width: 700px;
+    height: 600px;
 }
 
 
@@ -44,9 +41,9 @@ main section#principal {
     padding-top: 100px;
     padding-left: 80px;
     padding-right: 100px;
-    position: absolute;
     height: 600px;
     width: 700px;
+    position: absolute;
 }
 
 div#primeiro-texto h1 {
