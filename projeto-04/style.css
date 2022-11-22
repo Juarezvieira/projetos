@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+main {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+footer#creditos {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+footer#creditos p {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+
+footer#creditos a {
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+footer#creditos a:hover {
+    text-decoration: underline;
+}
