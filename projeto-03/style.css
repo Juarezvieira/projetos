@@ -19,7 +19,7 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 1420px;
-    height: 550px;
+    height: 500px;
     border-radius: 10px;
     display: flex;
 }
@@ -48,7 +48,7 @@ div#primeiro-texto p {
     line-height: 25px;
     padding-left: 40px;
     padding-right: 150px;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 strong {
@@ -74,11 +74,14 @@ li {
 li h1 {
     color: white;
     font-size: 30px;
+    padding-right: 85px;
 }
 
 li p {
     display: flex;
     color: hsla(0, 0%, 100%, 0.6);
+    padding-right: 50px;
+    padding-top: 10px;
 }
 
 section#imagem02 {
@@ -86,7 +89,7 @@ section#imagem02 {
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    height: 550px;
+    height: 500px;
     width: 725px;
     border-radius: 0px 10px 10px 0px;
 }
