@@ -13,77 +13,22 @@ body {
 }
 
 main {
+    background-color: hsl(244, 38%, 16%);
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    overflow: hidden;
-    background-color: hsl(244, 38%, 16%);
-    width: 1400px;
-    height: 600px;
-    border-radius: 8px;
-    position: absolute;
+    width: 1450px;
+    height: 550px;
+    border-radius: 10px;
 }
 
-main section#imagem {
-    width: 700px;
-    height: 600px;
+
+section#imagem02 {
     display: flex;
     float: right;
-}
-
-img {
-    width: 700px;
-    height: 600px;
-}
-
-
-main section#principal {
-    padding-top: 100px;
-    padding-left: 80px;
-    padding-right: 100px;
-    height: 600px;
-    width: 700px;
-    position: absolute;
-}
-
-div#primeiro-texto h1 {
-    font-size: 40px;
-    font-family: 'Inter', sans-serif;
-    color: white;
-    padding-bottom: 70px;
-    padding-right: 20px;
-}
-
-
-strong {
-    color:#aa5cdb;
-}
-
-div#primeiro-texto p {
-    color: hsla(0, 0%, 100%, 0.75);
-    font-family: 'Inter', sans-serif;
-    font-size: 18px;
-    padding-right: 128px;
-    padding-bottom: 120px;
-}
-
-ul {
-    list-style-type: none;
-}
-
-li h1 {
-    font-family: 'Lexend Deca', sans-serif;
-    color: white;
-    font-size: 30px;
-    word-spacing: 80px;
-    padding-bottom: 15px;
-}
-
-li p {
-    color: hsla(0, 0%, 100%, 0.6);
-    font-size: 15px;
-    font-family: 'Lexend Deca', sans-serif;
-    word-spacing: 60px;
+    height: 550px;
+    padding-bottom: 200px;
 }
 
 footer#creditos {
@@ -107,4 +52,9 @@ footer#creditos a {
     color: white;
     font-weight: 900;
     font-size: 17px;
+    text-decoration: none;
+}
+
+footer#creditos a:hover {
+    text-decoration: underline;
 }
