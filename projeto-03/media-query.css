@@ -12,19 +12,25 @@
           border-radius: 10px;
           height: 770px;
           width: 410px;
-     }
-
-     img {
-          display: none;
+          display: flex;
      }
 
      section#imagem01 {
           background-image: url('./imagens/image-header-mobile.jpg');
-          background-position: center;
-          background-size: contain;
-          display: flex;
+          background-repeat: no-repeat;
           height: 270px;
+          width: 410px;
+          display: flex;
+          position: absolute;
           border-radius: 10px 10px 0px 0px;
+     }
+
+     section#imagem02 {
+          display: none;
+     }
+
+     section#principal {
+          padding-top: 280px;
      }
 
      div#primeiro-texto {
@@ -55,7 +61,6 @@
      }
 
      ul {
-          display: flex;
           list-style-type: none;
           font-family: 'Lexend Deca', Arial, Helvetica, sans-serif;
           padding-top: 20px;
@@ -64,16 +69,18 @@
      li h1 {
           font-size:30px;
           color: white;
-          padding-left: 100px;
-          padding-right: 40px;
+          padding-left: 00px;
+          padding-right: 20px;
           line-height: 40px;
+     }
+
+     li {
+          padding-right: 30px;
      }
 
      li p {
           color: hsla(0, 0%, 100%, 0.6);
-          letter-spacing: 1px;
           font-size: 15px;
           line-height: 30px;
-          padding-top: 10px;
      }
 }
