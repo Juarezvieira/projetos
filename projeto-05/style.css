@@ -23,6 +23,7 @@ main {
     background-color: white;
     width: 450px;
     height: 650px;
+
 }
 
 div#card-background{
@@ -70,20 +71,21 @@ div#music-icon {
     position: relative;
 }
 
-footer {
+footer#creditos{
     position: absolute;
     width: 100%;
     bottom: 0;
+    left: 0;
     padding-bottom: 20px;
     text-align: center;
 }
 
-footer a{
+footer#creditos a{
     color: hsl(245, 75%, 52%);
     text-decoration: none;
 }
 
-footer a:hover {
+footer#creditos a:hover {
     text-decoration: underline;
 }
 
@@ -146,9 +148,9 @@ a#cancel p:hover {
 
 @media screen and (min-width: 375px) and (max-width: 768px) {
     
-    footer {
-        padding-top: 600px;
-        margin-top: 600px;
+    footer#creditos{
+        padding-top: 800px;
+        margin-top: 800px;
     }
 
 }
