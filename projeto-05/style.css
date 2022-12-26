@@ -146,14 +146,7 @@ a#cancel p:hover {
    color: hsl(231, 47%, 12%);
 }
 
-@media screen and (min-width: 375px) and (max-width: 768px) {
-    
-    footer#creditos{
-        padding-top: 800px;
-        margin-top: 800px;
-    }
 
-}
 
 
 
