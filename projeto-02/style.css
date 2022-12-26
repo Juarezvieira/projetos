@@ -138,3 +138,14 @@ footer#creditos a {
     font-weight: 900;
     font-size: 17px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+
+    footer#creditos {
+        margin-top: 600px;
+        padding-top: 600px;
+    }
+
+}
+
