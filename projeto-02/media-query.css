@@ -9,7 +9,7 @@
           top: 50%;
           left: 50%;
           transform: translate(-50%, -50%);
-          border-radius: 10px;
+          border-radius: 0px;
           height: 770px;
           width: 410px;
           display: flex;
