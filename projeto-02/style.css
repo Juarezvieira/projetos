@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
 
 * {
     margin: 0px;
@@ -8,113 +8,90 @@
     box-sizing: border-box;
 }
 
-
 body {
-    background-color: hsl(185, 75%, 39%);
-    height: 100vh;
-    width: 100vw;
+    background-color: hsl(233, 47%, 7%);
 }
 
-
-main#card {
+main {
+    background-color: hsl(244, 38%, 16%);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: white;
-    width: 420px;
-    height: 450px;
-    font-family: 'Kumbh Sans', sans-serif;
-    border-radius: 20px;
-    display: block;
-}
-
-main#card h2 {
-    font-size: 20px;
-    font-weight: 900;
-}
-
-div#imagem-card img {
-    width: 420px;
-    border-radius: 20px 20px 0px 0px;
-    display: block;
-    position: absolute;
-}
-
-div#imagem-card {
-    display: block;
-}
-
-
-div#imagem-perfil img {
-    display: block;
-    border-radius: 50%;
-    border: 8px solid white;
-    width: 130px;
-    position: relative;
-}
-
-
-div#imagem-perfil {
-    padding-left: 150px;
-    padding-top: 100px;
-    margin-bottom: 5px;
-}
-
-
-
-div#descricao h2 {
-    font-size: 23px;
+    width: 1420px;
+    height: 500px;
+    border-radius: 10px;
     display: flex;
 }
 
-div#descricao h3 {
-    color: hsl(227, 10%, 46%);
-    font-weight: 200;
-    font-size: 20px;
-    display: flex;
+section#principal {
+    width: 725px;
 }
 
-div#descricao p {
-    padding-top: 10px;
-    color: hsl(227, 10%, 46%);
+div#primeiro-texto {
     text-align: center;
+    padding: 20px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 
-div ul {
+div#primeiro-texto h1 {
+    color: white;
+    font-size: 40px;
+    padding-left: 20px;
+    padding-right: 150px;
+    padding-top: 50px;
+}
+
+div#primeiro-texto p {
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 25px;
+    padding-left: 40px;
+    padding-right: 150px;
+    padding-top: 50px;
+}
+
+strong {
+    color: hsl(277, 64%, 61%);
+}
+
+section#imagem01 {
+    display: none;
+}
+
+ul {
     list-style-type: none;
-    display: flex;
-    padding-left: 140px;
+    font-family: 'Lexend Deca', Arial, Helvetica, sans-serif;
+    padding-top: 60px;
+    text-align: center;
 }
 
 li {
     display: flex;
+    padding-left: 100px;
 }
 
-li#numero {
-    padding-top: 3px;
-    padding-left: 15px;
+li h1 {
+    color: white;
+    font-size: 30px;
+    padding-right: 85px;
 }
 
-div#status {
-    margin-top: 40px;
-    border-top: 1px solid rgb(112, 112, 112);
-}
-
-div#status h2 {
-    word-spacing: 80px;
-    padding-top: 30px;
-    text-align: center;
-    font-size: 23px;
-}
-
-div#status p {
-    word-spacing: 80px;
-    color: hsl(227, 10%, 46%);
-    padding-left: 0px;
-    padding-right: 10px;
+li p {
+    display: flex;
+    color: hsla(0, 0%, 100%, 0.6);
+    padding-right: 50px;
     padding-top: 10px;
-    text-align: center;
+}
+
+section#imagem02 {
+    background-image: url('./imagens/image-header-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 500px;
+    width: 725px;
+    border-radius: 0px 10px 10px 0px;
 }
 
 footer#creditos {
@@ -127,25 +104,20 @@ footer#creditos {
 
 
 footer#creditos p {
+    color: white;
     text-align: center;
-    font-family: 'Kumbh Sans', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
 }
 
 
 footer#creditos a {
-    color: black;
+    color: white;
     font-weight: 900;
     font-size: 17px;
+    text-decoration: none;
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
-
-
-    footer#creditos {
-        margin-top: 600px;
-        padding-top: 600px;
-    }
-
+footer#creditos a:hover {
+    text-decoration: underline;
 }
-
