@@ -22,7 +22,7 @@
           width: 410px;
           display: flex;
           position: absolute;
-          border-radius: 10px 10px 0px 0px;
+          border-radius: 0px;
      }
 
      section#imagem02 {
