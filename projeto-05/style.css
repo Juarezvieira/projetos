@@ -25,27 +25,41 @@ h1 {
 }
 
 button {
-
+    margin-left:20px;
+    width: 320px;
+    height: 45px;
+    padding-top: 5px;
+    border-radius: 30px;
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
 }
 
 ul {
-    list-style: none;
+    list-style-type: none;
     display: flex;
-    padding-left: 10px;
+    padding-bottom: 40px;
 }
 
 li {
-    color:  hsl(216, 12%, 54%);
-    background-color: hsl(216, 12%, 54%);
+    background-color: hsl(218, 13%, 17%);
     width: 50px;
     height: 50px;
-    margin-left: 15px;
+    margin-left: 18px;
     border-radius: 50%;
 }
 
 li p {
     text-align: center;
-    color: ;
+    color: hsl(216, 12%, 54%);
+    font-size: 18px;
+    padding-top: 18px;
+}
+
+li a {
+    text-decoration: none;
 }
 
 body {
@@ -71,4 +85,18 @@ main {
     height: 420px;
     border-radius: 30px;
     padding: 30px;
+    display: block;
+}
+
+
+
+
+
+
+section {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: none;
 }
