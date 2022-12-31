@@ -38,6 +38,16 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    transition: background-color, color, .3s;
+}
+
+button:not(:hover) {
+    transition: background-color, color, .3s;
+}
+
 ul {
     list-style-type: none;
     display: flex;
@@ -50,6 +60,16 @@ li {
     height: 50px;
     margin-left: 18px;
     border-radius: 50%;
+}
+
+li:hover {
+    background-color: hsl(219, 11%, 31%);
+    color: white;
+    transition: background-color, color, .3s;
+}
+
+li:not(:hover) {
+    transition: background-color, color, .3s;
 }
 
 li p {
@@ -88,12 +108,15 @@ main {
     padding: 30px;
     display: block;
 }
+/*rate page end*/
 
 
 
 
 
 
+
+/*thank you page start*/
 section {
     position: absolute;
     top: 50%;
@@ -115,7 +138,7 @@ div#thank-you-image {
 div#selection {
     text-align: center;
     background-color: hsl(218, 12%, 17%);
-    color: hsl(25, 97%, 53%);
+    color: #fb7413;
     width: 200px;
     height: 40px;
     padding-top: 11px;
