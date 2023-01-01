@@ -60,6 +60,11 @@ li {
     height: 50px;
     margin-left: 18px;
     border-radius: 50%;
+    color: hsl(216, 12%, 54%);
+    font-size: 18px;
+    padding-top: 15px;
+    text-align: center;
+    cursor: pointer;
 }
 
 li:hover {
@@ -70,17 +75,6 @@ li:hover {
 
 li:not(:hover) {
     transition: background-color, color, .3s;
-}
-
-li p {
-    text-align: center;
-    color: hsl(216, 12%, 54%);
-    font-size: 18px;
-    padding-top: 18px;
-}
-
-li a {
-    text-decoration: none;
 }
 
 body {

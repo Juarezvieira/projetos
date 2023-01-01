@@ -1,43 +1,36 @@
 //card change
-let btn = window.document.querySelector("button");
-
-let rateCard = window.document.querySelector("main");
-
-let thankYouCard = window.document.querySelector("section");
-
-let rate = window.document.querySelector("li");
-
-let thankYouRate = window.document.querySelector("#selection");
+let btn = document.querySelector("button");
+let rateCard = document.querySelector("main");
+let thankYouCard = document.querySelector("section");
+let rates = document.querySelectorAll("li");
+let thankYouRate = document.querySelector("#selection");
 
 function Selection() {
-    rate[1].addEventListener("click", function() {
-        this.style.backgroundColor = " ";
-        this.style.color = " ";
+  rates.forEach(rates => {
+    rates.addEventListener("click", function() {
+      this.style.backgroundColor = "hsl(25, 97%, 53%)";
+      this.style.color = "white";
+    });
+  });
+}
 
-        this.style.backgroundColor = "orange";
-        this.style.color = "white";
-    }
-    )
-};
+function colorRateSelection() {
+    if (Selection(rates[1]) === true ) {
+      rates[2].addEventListener("click", function() { 
+        rates[2].style.backgroundColor = "hsl(218, 13%, 17%)";
+        rates[2].style.backgroundColor = "hsl(216, 12%, 54%)";
+    })
+} }
 
 function cardChange() {
-    btn.addEventListener("click", function () {
-        rateCard.style.display = "none";
-        thankYouCard.style.display = "block";
-    })
-};
+  btn.addEventListener("click", function() {
+    rateCard.style.display = "none";
+    thankYouCard.style.display = "block";
+  });
+}
 
-function cardChangeCheck() {
-    if (cardChange === true) {
-        true;
-    } else (cardChange === false)
-};
+Selection();
+cardChange();
 
 //rate number listener
 
-/*function YouSelected() {
-    if(rate[1] === thankYouRate) {
-        thankYouRate.remove();
-        thankYouRate.innerHTML = "You selected 1 out of 5";
-    }
-}*/
