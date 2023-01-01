@@ -1,35 +1,30 @@
 //card change
-let btn = document.querySelector("button");
-let rateCard = document.querySelector("main");
-let thankYouCard = document.querySelector("section");
-let rates = document.querySelectorAll("li");
-let thankYouRate = document.querySelector("#selection");
+let submitButton = document.querySelector("button");
+let rateCard = document.querySelector("#rate-card");
+let thankYouCard = document.querySelector("#thank-you-card");
+let thankYouRate = document.querySelector("#thank-you-rate");
+let ratingOptions = document.querySelectorAll("li");
+let ratingIsActive = true;
 
-function Selection() {
-  rates.forEach(rates => {
-    rates.addEventListener("click", function() {
-      this.style.backgroundColor = "hsl(25, 97%, 53%)";
-      this.style.color = "white";
-    });
-  });
-}
-
-function colorRateSelection() {
-    if (Selection(rates[1]) === true ) {
-      rates[2].addEventListener("click", function() { 
-        rates[2].style.backgroundColor = "hsl(218, 13%, 17%)";
-        rates[2].style.backgroundColor = "hsl(216, 12%, 54%)";
+ratingOptions.forEach(function(option) {
+  if (ratingIsActive) {
+    option.addEventListener("click", function() {
+    option.style.backgroundColor = "hsl(25, 97%, 53%)";
+    option.style.color = "white";
+  })} else {
+    option.addEventListener("click", function(){
+      option.style.backgroundColor = "hsl(219, 11%, 31%)";
+      option.style.color = "white";
     })
-} }
+  }
+});
 
-function cardChange() {
-  btn.addEventListener("click", function() {
-    rateCard.style.display = "none";
-    thankYouCard.style.display = "block";
-  });
-}
+submitButton.addEventListener("click", function() {
+  rateCard.style.display = "none";
+  thankYouCard.style.display = "block";
+});
 
-Selection();
+ratingClick();
 cardChange();
 
 //rate number listener
