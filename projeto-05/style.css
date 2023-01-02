@@ -32,7 +32,7 @@ button {
     padding-top: 5px;
     border-radius: 30px;
     border: none;
-    background-color: hsl(25, 97%, 53%);
+    background-color: #fb7413;
     color: white;
     font-size: 15px;
     cursor: pointer;
@@ -77,6 +77,14 @@ li:not(:hover) {
     transition: background-color, color, .3s;
 }
 
+a {
+    text-decoration: none;
+    color: hsl(216, 12%, 54%);
+    border: none;
+}
+
+
+
 body {
     background-color: hsl(216, 12%, 8%);
 }
@@ -88,6 +96,10 @@ main div {
     padding: 10px;
     text-align: center;
     border-radius: 50%;
+}
+
+main div a {
+
 }
 
 main {

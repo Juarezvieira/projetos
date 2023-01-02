@@ -2,10 +2,18 @@ let submitButton = document.querySelector("button");
 let rateCard = document.querySelector("main");
 let thankYouCard = document.querySelector("section");
 let thankYouRate = document.querySelector("#thank-you-rate");
-let ratingOptions = [document.querySelector("li")[0], document.querySelector("li")[1], document.querySelector("li")[2], document.querySelector("li")[3], document.querySelector("li")[4]];
+let ratingOptions = document.querySelectorAll("ul");
 
 
-ratingOptions[1].style.backgroundColor = "white";
+function optionClick() {
+  const ratingOptions = document.querySelectorAll("li");
+
+  ratingOptions.addEventListener.ForEach("click", function(){
+
+    ratingOptions.style.backgroundColor = "#fb7413";
+      });
+    };
+
 
 
 //card change submit
@@ -17,6 +25,12 @@ function cardChange() {
 }
 
 cardChange();
+optionClick();
 
 
-//rate number listener
+
+
+
+
+
+
