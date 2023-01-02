@@ -1,31 +1,22 @@
-//card change
 let submitButton = document.querySelector("button");
-let rateCard = document.querySelector("#rate-card");
-let thankYouCard = document.querySelector("#thank-you-card");
+let rateCard = document.querySelector("main");
+let thankYouCard = document.querySelector("section");
 let thankYouRate = document.querySelector("#thank-you-rate");
-let ratingOptions = document.querySelectorAll("li");
-let ratingIsActive = true;
+let ratingOptions = [document.querySelector("li")[0], document.querySelector("li")[1], document.querySelector("li")[2], document.querySelector("li")[3], document.querySelector("li")[4]];
 
-ratingOptions.forEach(function(option) {
-  if (ratingIsActive) {
-    option.addEventListener("click", function() {
-    option.style.backgroundColor = "hsl(25, 97%, 53%)";
-    option.style.color = "white";
-  })} else {
-    option.addEventListener("click", function(){
-      option.style.backgroundColor = "hsl(219, 11%, 31%)";
-      option.style.color = "white";
-    })
-  }
-});
 
-submitButton.addEventListener("click", function() {
-  rateCard.style.display = "none";
-  thankYouCard.style.display = "block";
-});
+ratingOptions[1].style.backgroundColor = "white";
 
-ratingClick();
+
+//card change submit
+function cardChange() {
+  submitButton.addEventListener("click", function() {
+    rateCard.style.display = "none";
+    thankYouCard.style.display = "block";
+  })
+}
+
 cardChange();
 
-//rate number listener
 
+//rate number listener
