@@ -68,7 +68,7 @@ li {
 }
 
 li:hover {
-    background-color: hsl(219, 11%, 31%);
+    background-color: #464c58;
     color: white;
     transition: background-color, color, .3s;
 }
@@ -93,13 +93,10 @@ main div {
     background-color: hsl(218, 12%, 17%);
     width: 40px;
     height: 40px;
-    padding: 10px;
+    padding-top: 11px;
     text-align: center;
     border-radius: 50%;
-}
-
-main div a {
-
+    text-align: center;
 }
 
 main {
@@ -135,6 +132,31 @@ section {
     padding: 30px;
     display: none;
 }
+
+div#arrow-icon{
+    background-color: hsl(218, 12%, 17%);
+    width: 40px;
+    height: 40px;
+    padding-top: 12px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#arrow-icon:hover {
+    background-color: #464c58;
+    transition: background-color, .3s;
+}
+
+#arrow-icon:not(:hover) {
+    background-color: hsl(218, 12%, 17%);
+    transition: background-color, .3s;
+}
+
+ion-icon {
+    color: #fb7413;
+}
+
 
 div#thank-you-image {
     padding-left: 90px;

@@ -1,28 +1,27 @@
 let submitButton = document.querySelector("button");
+let backButton = document.querySelector("#arrow-icon")
 let rateCard = document.querySelector("main");
 let thankYouCard = document.querySelector("section");
-let thankYouRate = document.querySelector("#thank-you-rate");
-let ratingOptions = document.querySelectorAll("ul");
+let ratingOptions = document.querySelectorAll("li");
+let selection = document.querySelector("#selection");
 
-
-function optionClick() {
-  const ratingOptions = document.querySelectorAll("li");
-
-  ratingOptions.addEventListener.ForEach("click", function(){
-
-    ratingOptions.style.backgroundColor = "#fb7413";
-      });
-    };
+//before submit
 
 
 
-//card change submit
+
+
+//after submit
 function cardChange() {
-  submitButton.addEventListener("click", function() {
+  submitButton.addEventListener("click", function () {
     rateCard.style.display = "none";
     thankYouCard.style.display = "block";
+  });
+  backButton.addEventListener("click", function () {
+    thankYouCard.style.display = "none";
+    rateCard.style.display = "block";
   })
-}
+};
 
 cardChange();
 optionClick();
