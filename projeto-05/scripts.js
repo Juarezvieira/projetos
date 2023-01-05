@@ -5,25 +5,24 @@ let thankYouCard = document.querySelector("section");
 let selection = document.querySelector("#selection");
 
 //before submit
+/*
 let op1 = document.querySelector("#op1");
 let op2 = document.querySelector("#op2");
 let op3 = document.querySelector("#op3");
 let op4 = document.querySelector("#op4");
 let op5 = document.querySelector("#op5");
+*/
+
+let op = document.querySelectorAll("li");
+
 
 function optionClick() {
-  function activeOption(option) {
-    return option.addEventListener("click", function(){
-      op1.style.cssText = "background-color: hsl(25, 97%, 53%); color: white";
-      op2.style.cssText = "background-color: hsl(25, 97%, 53%); color: white";
-      op3.style.cssText = "background-color: hsl(25, 97%, 53%); color: white";
-      op4.style.cssText = "background-color: hsl(25, 97%, 53%); color: white";
-      op5.style.cssText = "background-color: hsl(25, 97%, 53%); color: white";
-    })
-  };
+  ForEach.addEventListener("click", function(){
+    op.style.cssText = "background-color: #fb7413; color: white";
+  })
+};
 
-  
-}
+
 
 
 //after submit
@@ -38,9 +37,7 @@ function cardChange() {
   })
 };
 
-/*if (optionClick() = false) {
-  cardChange = false;
-}*/
+
 
 cardChange();
 optionClick();
