@@ -9,22 +9,21 @@
           top: 50%;
           left: 50%;
           transform: translate(-50%, -50%);
-          border-radius: 0px;
-          height: 740px;
-          width: 410px;
+          border-radius: 10px;
+          height: 610px;
+          width: 360px;
           display: flex;
-
-          margin-top: 30px;
+          margin-bottom: 30px;
      }
 
      section#imagem01 {
           background-image: url('./imagens/image-header-mobile.jpg');
           background-repeat: no-repeat;
-          height: 270px;
-          width: 410px;
+          height: 150px;
+          width: 360px;
           display: flex;
           position: absolute;
-          border-radius: 10px;
+          border-radius: 10px 10px 0px 0px;
      }
 
      section#imagem02 {
@@ -32,7 +31,8 @@
      }
 
      section#principal {
-          padding-top: 280px;
+          width: 360px;
+          margin-top: 120px;
      }
 
      div#primeiro-texto {
@@ -55,7 +55,7 @@
      }
 
      div#primeiro-texto p {
-          padding-top: 20px;
+          padding-top: 10px;
           padding-left: 50px;
           padding-right: 50px;
           color: hsla(0, 0%, 100%, 0.75);
@@ -66,28 +66,28 @@
      ul {
           list-style-type: none;
           font-family: 'Lexend Deca', Arial, Helvetica, sans-serif;
-          padding-top: 20px;
-          padding-right: 0px;
+          padding-top: 0px;
           display: block;
+          width: 360px;
      }
 
      li h1 {
           font-size: 30px;
           color: white;
           line-height: 40px;
-          padding-right: 50px;
+          padding-right: 30px;
+          padding-left: 15px;
      }
 
      li {
-          padding: 0px;
-          padding-left: 60px;
+          padding-left: 25px;
      }
 
      li p {
           color: hsla(0, 0%, 100%, 0.6);
           font-size: 15px;
           line-height: 50px;
-          padding-right: 20px;
+          padding-right: 30px;
      }
 
      footer#creditos {
