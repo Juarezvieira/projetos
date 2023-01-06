@@ -55,12 +55,12 @@ ul {
 }
 
 li {
-    background-color: hsl(218, 13%, 17%);
+    background-color: #262a31;
     width: 50px;
     height: 50px;
     margin-left: 18px;
     border-radius: 50%;
-    color: hsl(216, 12%, 54%);
+    color: #7c8798;
     font-size: 18px;
     padding-top: 15px;
     text-align: center;
@@ -82,7 +82,6 @@ a {
     color: hsl(216, 12%, 54%);
     border: none;
 }
-
 
 
 body {
@@ -160,10 +159,59 @@ ion-icon {
 
 div#thank-you-image {
     padding-left: 90px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
-div#selection {
+#selection1 {
+    display: none;
+    text-align: center;
+    background-color: hsl(218, 12%, 17%);
+    color: #fb7413;
+    width: 200px;
+    height: 40px;
+    padding-top: 11px;
+    margin-left: 80px;
+    border-radius: 30px;
+}
+
+#selection2 {
+    display: none;
+    text-align: center;
+    background-color: hsl(218, 12%, 17%);
+    color: #fb7413;
+    width: 200px;
+    height: 40px;
+    padding-top: 11px;
+    margin-left: 80px;
+    border-radius: 30px;
+}
+
+#selection3 {
+    display: none;
+    text-align: center;
+    background-color: hsl(218, 12%, 17%);
+    color: #fb7413;
+    width: 200px;
+    height: 40px;
+    padding-top: 11px;
+    margin-left: 80px;
+    border-radius: 30px;
+}
+
+#selection4 {
+    display: none;
+    text-align: center;
+    background-color: hsl(218, 12%, 17%);
+    color: #fb7413;
+    width: 200px;
+    height: 40px;
+    padding-top: 11px;
+    margin-left: 80px;
+    border-radius: 30px;
+}
+
+#selection5 {
+    display: none;
     text-align: center;
     background-color: hsl(218, 12%, 17%);
     color: #fb7413;
@@ -177,6 +225,7 @@ div#selection {
 section h1 {
     text-align: center;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 section p {
