@@ -10,9 +10,11 @@
           left: 50%;
           transform: translate(-50%, -50%);
           border-radius: 0px;
-          height: 770px;
+          height: 740px;
           width: 410px;
           display: flex;
+
+          margin-top: 30px;
      }
 
      section#imagem01 {
@@ -22,7 +24,7 @@
           width: 410px;
           display: flex;
           position: absolute;
-          border-radius: 0px;
+          border-radius: 10px;
      }
 
      section#imagem02 {
@@ -70,7 +72,7 @@
      }
 
      li h1 {
-          font-size:30px;
+          font-size: 30px;
           color: white;
           line-height: 40px;
           padding-right: 50px;
