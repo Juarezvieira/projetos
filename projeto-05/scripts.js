@@ -57,35 +57,35 @@ function rateListener() {
     selection2.style.display = "none";
     selection3.style.display = "none";
     selection4.sytle.display = "none";
-    selection1.style.display = "none";
+    selection5.style.display = "none";
   });
   op2.addEventListener("click", function () {
     selection1.style.display - "none";
     selection2.style.display = "block";
     selection3.style.display = "none";
     selection4.sytle.display = "none";
-    selection1.style.display = "none";
+    selection5.sytle.display = "none";
   });
   op3.addEventListener("click", function () {
     selection1.style.display - "none";
     selection2.style.display = "none";
     selection3.style.display = "block";
     selection4.sytle.display = "none";
-    selection1.style.display = "none";
+    selection5.style.display = "none";
   });
   op4.addEventListener("click", function () {
-    selection4.style.display = "block";
-    selection1.style.display - "none";
-    selection2.style.display = "none";
+    selection1.style.display = "none";
+    selection2.style.display - "none";
     selection3.style.display = "none";
-    selection4.sytle.display = "none";
+    selection4.style.display = "block";
+    selection5.style.display = "none";
   });
   op5.addEventListener("click", function () {
-    selection5.style.display = "block";
-    selection1.style.display - "none";
-    selection2.style.display = "none";
+    selection1.style.display = "none";
+    selection2.style.display - "none";
     selection3.style.display = "none";
-    selection4.sytle.display = "none";
+    selection4.style.display = "none";
+    selection5.sytle.display = "block";
   });
 };
 
