@@ -33,6 +33,7 @@ function cardChange() {
 backButton.addEventListener("click", function () {
   thankYouCard.style.display = "none";
   rateCard.style.display = "block";
+  window.location.reload(true);
 })
 
 
@@ -86,7 +87,7 @@ backButton.addEventListener("click", function () {
       selection3.style.display = "none";
       selection4.sytle.display = "none";
     });
-  }
+  };
 
 
 
