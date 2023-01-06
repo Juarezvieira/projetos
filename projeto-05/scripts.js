@@ -1,4 +1,5 @@
 let submitButton = document.querySelector("button");
+let submitButtonNone = " ";
 let backButton = document.querySelector("#arrow-icon")
 let rateCard = document.querySelector("main");
 let thankYouCard = document.querySelector("section");
@@ -33,7 +34,7 @@ function cardChange() {
     thankYouCard.style.display = "none";
     rateCard.style.display = "block";
     window.location.reload(false);
-  })
+  });
 };
 
 
@@ -60,14 +61,14 @@ function rateListener() {
     selection5.style.display = "none";
   });
   op2.addEventListener("click", function () {
-    selection1.style.display - "none";
+    selection1.style.display = "none";
     selection2.style.display = "block";
     selection3.style.display = "none";
     selection4.sytle.display = "none";
     selection5.sytle.display = "none";
   });
   op3.addEventListener("click", function () {
-    selection1.style.display - "none";
+    selection1.style.display = "none";
     selection2.style.display = "none";
     selection3.style.display = "block";
     selection4.sytle.display = "none";
@@ -75,31 +76,20 @@ function rateListener() {
   });
   op4.addEventListener("click", function () {
     selection1.style.display = "none";
-    selection2.style.display - "none";
+    selection2.style.display = "none";
     selection3.style.display = "none";
     selection4.style.display = "block";
     selection5.style.display = "none";
   });
   op5.addEventListener("click", function () {
     selection1.style.display = "none";
-    selection2.style.display - "none";
+    selection2.style.display = "none";
     selection3.style.display = "none";
     selection4.style.display = "none";
-    selection5.sytle.display = "block";
+    selection5.style.display = "block";
   });
 };
 
-
-
-cardChange();
 opClickActive();
+cardChange();
 rateListener();
-
-
-
-
-
-
-
-
-
